@@ -36,8 +36,8 @@ public class Main {
                 roadData.setFuel(theFuel);
 
                 double average = (double) roadData.getFuel() * 100 / roadData.getDistance();
-                totalDistance = totalDistance + roadData.getDistance();
-                totalFuel = totalFuel + roadData.getFuel();
+                totalDistance = totalDistance + theDistance;
+                totalFuel = totalFuel + theFuel;
 
 
                 System.out.printf("Srednie spalanie z tej trasy wynosi: %.2f l/100km %n",average);
